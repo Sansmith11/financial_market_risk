@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "generated_at": "2026-06-07T20:58:42.872192",
+    "ticker": "NIFTY_500-04-06-2025-to-04-06-2026",
+    "data_start": "2025-06-05",
+    "data_end": "2026-06-04",
+    "pipeline_version": "1.0.0"
+  },
+  "statistical_summary": {
+    "n": 247,
+    "mean_daily_return": -5.5e-05,
+    "annualised_return": -0.014,
+    "daily_volatility": 0.008751,
+    "annualised_volatility": 0.1389,
+    "skewness": -0.2319,
+    "excess_kurtosis": 2.6426,
+    "min_return": -0.032063,
+    "max_return": 0.038715,
+    "VaR_5pct": -0.014303,
+    "CVaR_5pct": -0.021138
+  },
+  "best_distribution": {
+    "name": "Stable",
+    "rank": 1,
+    "final_score": 93.96,
+    "params": {
+      "alpha": 1.6572281136606644,
+      "beta": -0.4482523992261026,
+      "loc": -0.00044415676737922995,
+      "scale": 0.004926810909249587
+    },
+    "log_likelihood": 833.6383,
+    "aic": -1659.2766,
+    "bic": -1645.239,
+    "ks_statistic": 0.025858,
+    "ks_pvalue": 0.995114
+  },
+  "ranking_table": [
+    {
+      "rank": 1,
+      "distribution": "Stable",
+      "final_score": 93.96,
+      "ks_score": 100.0,
+      "ll_score": 99.74,
+      "aic_score": 94.38,
+      "bic_score": 79.14,
+      "stability_score": 83.19,
+      "tail_fit_score": 99.14,
+      "log_likelihood": 833.6383,
+      "aic": -1659.2766,
+      "bic": -1645.239,
+      "ks_stat": 0.025858,
+      "ks_pvalue": 0.995114
+    },
+    {
+      "rank": 2,
+      "distribution": "Laplace",
+      "final_score": 91.66,
+      "ks_score": 78.03,
+      "ll_score": 96.77,
+      "aic_score": 100.0,
+      "bic_score": 100.0,
+      "stability_score": 82.43,
+      "tail_fit_score": 94.37,
+      "log_likelihood": 832.9317,
+      "aic": -1661.8633,
+      "bic": -1654.8445,
+      "ks_stat": 0.036756,
+      "ks_pvalue": 0.879968
+    },
+    {
+      "rank": 3,
+      "distribution": "StudentT",
+      "final_score": 91.02,
+      "ks_score": 78.2,
+      "ll_score": 100.0,
+      "aic_score": 99.0,
+      "bic_score": 91.38,
+      "stability_score": 82.43,
+      "tail_fit_score": 94.35,
+      "log_likelihood": 833.7008,
+      "aic": -1661.4016,
+      "bic": -1650.8735,
+      "ks_stat": 0.036673,
+      "ks_pvalue": 0.88159
+    },
+    {
+      "rank": 4,
+      "distribution": "GeneralizedNormal",
+      "final_score": 88.91,
+      "ks_score": 72.61,
+      "ll_score": 98.87,
+      "aic_score": 97.83,
+      "bic_score": 90.21,
+      "stability_score": 82.24,
+      "tail_fit_score": 94.37,
+      "log_likelihood": 833.4327,
+      "aic": -1660.8655,
+      "bic": -1650.3373,
+      "ks_stat": 0.039449,
+      "ks_pvalue": 0.821946
+    },
+    {
+      "rank": 5,
+      "distribution": "Davies",
+      "final_score": 87.28,
+      "ks_score": 77.01,
+      "ll_score": 98.74,
+      "aic_score": 93.35,
+      "bic_score": 78.11,
+      "stability_score": 82.39,
+      "tail_fit_score": 94.37,
+      "log_likelihood": 833.4,
+      "aic": -1658.8001,
+      "bic": -1644.7625,
+      "ks_stat": 0.037264,
+      "ks_pvalue": 0.869769
+    },
+    {
+      "rank": 6,
+      "distribution": "Normal",
+      "final_score": 42.16,
+      "ks_score": 10.84,
+      "ll_score": 44.38,
+      "aic_score": 45.86,
+      "bic_score": 45.86,
+      "stability_score": 75.2,
+      "tail_fit_score": 95.67,
+      "log_likelihood": 820.4662,
+      "aic": -1636.9325,
+      "bic": -1629.9137,
+      "ks_stat": 0.07009,
+      "ks_pvalue": 0.168385
+    },
+    {
+      "rank": 7,
+      "distribution": "Cauchy",
+      "final_score": 9.52,
+      "ks_score": 0.0,
+      "ll_score": 0.0,
+      "aic_score": 0.0,
+      "bic_score": 0.0,
+      "stability_score": 71.55,
+      "tail_fit_score": 47.39,
+      "log_likelihood": 809.9067,
+      "aic": -1615.8134,
+      "bic": -1608.7946,
+      "ks_stat": 0.07547,
+      "ks_pvalue": 0.113933
+    }
+  ],
+  "regime": {
+    "classification": "Neutral",
+    "regime_index": 2,
+    "raw_score": 49.2,
+    "return_signal": "Low (-1.4% ann.)",
+    "volatility_signal": "Moderate (13.9%)",
+    "distribution_signal": "Stable (heavy tails)",
+    "tail_signal": "Normal tails",
+    "trend_signal": "Mild uptrend (price > MA50)",
+    "sub_scores": {
+      "return": 50.0,
+      "volatility": 50.0,
+      "distribution": 35.0,
+      "tail": 50.0,
+      "trend": 60.0
+    }
+  },
+  "confidence": {
+    "score_pct": 57.2,
+    "interpretation": "Moderate \u2014 reasonable confidence",
+    "components": {
+      "distribution_agreement": 9.2,
+      "statistical_significance": 100.0,
+      "sample_size_score": 98.9,
+      "tail_consistency": 96.0,
+      "regime_consistency": 1.6
+    }
+  },
+  "tail_risk": {
+    "VaR_5pct": -0.014303,
+    "CVaR_5pct": -0.021138,
+    "skewness": -0.2319,
+    "excess_kurtosis": 2.6426,
+    "best_dist_tail_score": 99.14,
+    "interpretation": "Heavy-tail risk"
+  },
+  "trading_signal": {
+    "signal": "HOLD",
+    "rationale": "Neutral or low-confidence signal (57%). Regime: Neutral.",
+    "risk_note": "Wait for clearer directional signal before acting."
+  }
+}
